@@ -19,9 +19,9 @@ const sectionsProp = [
 
 class App extends React.Component {
   render() {
-    return <div>
+    return (<div>
       <Accordion sections={sectionsProp} />
-    </div>
+    </div>)
   }
 
 }
